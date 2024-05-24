@@ -72,4 +72,4 @@ branches:
     - master # Set travis builder branch(es) names
   except:
     - /^(?i:untagged)-.*$/
-    - /^v\d+\.\d+(\.\d+)?(-\S*)?$/￼Enter
+    - /^v\d+\.\d+(\.\d+)?(-\S*)?$/
