@@ -46,7 +46,7 @@ script:
     source build/envsetup.sh
     # Choose build flavor as "eng" or "userdebug"
     BUILD_FLAVOR="eng"
-    lunch omni_HD65-eng
+    lunch omni_HD65-${BUILD_FLAVOR}
     make -j$(nproc --all) recoveryimage
     exit
     EOF
